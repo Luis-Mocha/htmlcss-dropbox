@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 #header-contenuto {
     display: flex;
-    height: 280px;
+    height: 300px;
 }
 h1 {
     font-size: 60px;
@@ -98,22 +98,25 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 30%;
+    flex-basis: 50%;
+}
+.sx > * {
+    width: 70%;
 }
 .sx button {
-    width: 70%;
+    width: 50%;
 }
 .fa-arrow-down {
     font-size: 30px;
 }
 /* Header parte destra */
-.dx {
-    flex-basis: 70%;
-}
+.dx img {
+    height: 130%;
+} 
 
 /* MAIN */
 .main-sections section {
-    margin-top: 55px;
+    margin-top: 150px;
 }
 /* PRIMA SEZIONE Piani di Business */
 #piani-business h2 {
