@@ -47,6 +47,10 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: white;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 nav ul {
     display: flex;
@@ -71,7 +75,7 @@ nav ul li a:hover {
 /* Header main */
 #header-main {
     background-color: rgb(180,208,231);
-    padding: 40px 0 15px;
+    padding: 120px 0 15px;
     width: 70%;
     margin: auto;
 }
@@ -103,12 +107,8 @@ h1 {
 }
 
 /* MAIN */
-/* .main-sections {
-    border: 1px solid red;
-    height: 1000px;
-} */
 .main-sections section {
-    margin-top: 60px;
+    margin-top: 55px;
 }
 /* prima sezione */
 #piani-business h2 {
