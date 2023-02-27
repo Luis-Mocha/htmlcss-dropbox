@@ -167,3 +167,24 @@ h1 {
 .fa-check {
     color: rgb(0,97,255);
 }
+/* Ultima card orizzonatale */
+.piani-business-last {
+    border: 1px solid lightgray;
+}
+.piani-business-last .icona-business {
+    display: block;
+}
+
+.last-card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.piani-business-last .card-description {
+    flex-basis: 60%;
+}
+.piani-business-last .price {
+    margin-bottom: 25px;
+}
+.piani-business-last button {
+    margin: 20px 20px;
+}
