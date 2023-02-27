@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 img {
@@ -28,11 +28,15 @@ button {
 }
 
 /* UTILITY */
+.container-60 {
+    width: 60%;
+    margin: auto;
+}
 .button-blue {
     background-color: rgb(0,97,255);
     color: white;
     border: none;
-    padding: 5px 15px;
+    padding: 7px 12px;
 }
 
 /* HEADER */
@@ -63,20 +67,17 @@ nav ul li a:hover {
     border-bottom: 1px solid transparent;
 } */
 
-nav button {
-    padding: 5px 15px;
-}
 
 /* Header main */
 #header-main {
     background-color: rgb(180,208,231);
     padding: 40px 0 15px;
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 #header-contenuto {
     display: flex;
-    height: 300px;
+    height: 280px;
 }
 h1 {
     font-size: 60px;
@@ -91,7 +92,7 @@ h1 {
     flex-basis: 30%;
 }
 .sx button {
-    width: 75%;
+    width: 70%;
 }
 .fa-arrow-down {
     font-size: 30px;
@@ -102,3 +103,67 @@ h1 {
 }
 
 /* MAIN */
+/* .main-sections {
+    border: 1px solid red;
+    height: 1000px;
+} */
+.main-sections section {
+    margin-top: 60px;
+}
+/* prima sezione */
+#piani-business h2 {
+    font-size: 30px;
+    padding: 30px 0;
+}
+.fa-circle-dot {
+    color: rgb(0,97,255);
+}
+.fa-circle {
+    color: lightgray;
+    margin-left: 2rem;
+}
+/* cards in flex */
+.piani-business-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.card {
+    width: calc(100%/3 - 25px);
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+.icona-business {
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+    text-align: center;
+}
+.card-description {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+/* Card: caratteristiche singole voci */
+.card-description > * {
+    margin: 10px 0;
+}
+.card h3 {
+    font-size: 1.3rem;
+}
+.price {
+    font-weight: 600;
+}
+.al-mese {
+    color: gray;
+}
+.card-description hr {
+    width: 20%;
+}
+.card a {
+    color: rgb(0,97,255);
+    text-decoration: underline;
+}
+.fa-check {
+    color: rgb(0,97,255);
+}
