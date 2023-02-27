@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif; 
 }
 
 img {
@@ -20,4 +21,46 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+}
+button {
+    cursor: pointer;
+}
+
+/* UTILITY */
+.button-blue {
+    background-color: rgb(0,97,255);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+
+/* HEADER */
+nav {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul li {
+    margin: 0 0.5rem;
+    /* padding: 15px; */
+}
+nav a  {
+padding: 20px;
+}
+/* nav ul li a img:hover {
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+.header-img {
+    border-bottom: 1px solid transparent;
+} */
+nav button {
+    padding: 5px 15px;
 }
