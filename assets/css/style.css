@@ -43,7 +43,14 @@ button {
     border: 1px solid gray;
     padding: 5px 10px;
 }
-
+.link-blue {
+    color: rgb(0,97,255);
+    text-decoration: underline;
+}
+h2 {
+    font-size: 30px;
+    padding: 30px 0;
+}
 /* HEADER */
 header {
     background-color: rgb(180,208,231);
@@ -114,13 +121,9 @@ h1 {
 
 /* MAIN */
 .main-sections section {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 /* PRIMA SEZIONE Piani di Business */
-#piani-business h2 {
-    font-size: 30px;
-    padding: 30px 0;
-}
 .fa-circle-dot {
     color: rgb(0,97,255);
 }
@@ -211,4 +214,58 @@ h1 {
 }
 .partner-decription h2 {
     font-size: 1.3rem;
+}
+
+/* TERZA SEZIONE Più operazioni */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 2rem;
+}
+.box h3 {
+    font-size: 16px;
+}
+.box > * {
+    margin-bottom: 1rem
+}
+
+/* SEZIONE AZIENDE */
+#aziende-container {
+    margin-top: 100px;
+    display: flex;
+}
+.squares-big {
+    width: calc(100% / 3);
+}
+
+.side-square {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-squares {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+.mini-squares img {
+    width: 60%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fill-white {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(149deg) brightness(100%) contrast(103%);
+}
+
+.middle-square {
+    background-color: rgb(245,245,245);
+    padding: 40px;
+}
+.middle-square > * {
+    margin-bottom: 30px;
 }
