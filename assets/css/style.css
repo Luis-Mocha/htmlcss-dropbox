@@ -56,52 +56,50 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 99;
+
+    height: 80px;
+    line-height: 80px;
+}
+#header-img img {
+    vertical-align: middle;
+    display: inline-block;
 }
 nav ul {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 nav ul li {
-    padding: 1.2rem 1rem;
+    padding: 0 1rem;
 }
-
-/* nav ul li a img:hover {
-    border-bottom: 2px solid transparent;
-}
-nav ul li a:hover {
+/* Effetto hover  */
+nav ul li:not(#header-img):hover {
     border-bottom: 2px solid black;
 }
-.header-img {
-    border-bottom: 1px solid transparent;
-} */
 
 
 /* Header main */
 #header-main {
-    background-color: rgb(180,208,231);
-    padding: 120px 0 15px;
+    padding: 100px 0 10px;
     width: 70%;
     margin: auto;
 }
 #header-contenuto {
     display: flex;
-    height: 300px;
+    position: relative;
+    bottom: -70px;
 }
 h1 {
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 30px;
 }
 /*  header parte sinistra */
 .sx {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 .sx > * {
-    width: 70%;
+    margin-bottom: 2rem
 }
 .sx button {
     width: 50%;
@@ -110,8 +108,8 @@ h1 {
     font-size: 30px;
 }
 /* Header parte destra */
-.dx img {
-    height: 130%;
+.dx {
+    flex-basis: 70%;
 } 
 
 /* MAIN */
