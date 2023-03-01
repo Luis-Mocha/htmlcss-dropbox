@@ -33,7 +33,7 @@ button {
 }
 .container-70 {
     width: 70%;
-    margin: auto; 
+    margin: auto;
 }
 /* bottoni */
 .button-blue {
@@ -103,7 +103,6 @@ nav ul li {
 nav ul li:not(#header-img):hover {
     border-bottom: 2px solid black;
 }
-
 /* Header main */
 #header-main {
     padding: 100px 0 10px;
@@ -137,10 +136,10 @@ h1 {
 /* Header parte destra */
 .dx {
     flex-basis: 70%;
-} 
+}
 
 /* MAIN */
-section { 
+section {
     margin-top: 100px;
 }
 /* PRIMA SEZIONE Piani di Business */
@@ -173,6 +172,10 @@ section {
     display: flex;
     flex-direction: column;
 }
+.card .fa-solid {
+    margin-right: 1rem;
+    width: 10px;
+}
 /* Card: caratteristiche singole voci */
 .card-description > * {
     margin: 10px 0;
@@ -192,6 +195,9 @@ section {
 .card a {
     color: rgb(0,97,255);
     text-decoration: underline;
+}
+.punti-salienti {
+    font-weight: 600;
 }
 .fa-check {
     color: rgb(0,97,255);
