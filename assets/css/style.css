@@ -87,6 +87,7 @@ nav {
 
     height: 80px;
     line-height: 80px;
+    overflow: hidden
 }
 #header-img img {
     vertical-align: middle;
@@ -259,6 +260,7 @@ section {
 }
 .squares-big {
     width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
 }
 
 .side-square {
@@ -284,6 +286,7 @@ section {
 .middle-square {
     background-color: rgb(245,245,245);
     padding: 40px;
+    overflow: auto;
 }
 .middle-square > * {
     margin-bottom: 30px;
